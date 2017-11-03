@@ -12,7 +12,7 @@ header {
 	width: 100%;
 	height: 110px;
 	margin-bottom: 20px;
-	z-index: 1;
+	z-index: 2;
 }
 
 a {
@@ -128,10 +128,26 @@ footer {
 	bottom: -200px;
 }
 
-.pimg {
-	margin: 2.5%;
+.pdiv {
 	display: inline-block;
-	width: 40%;
+	position: relative;
+	width: 44%;
+	margin: 2.5%;
+}
+
+.pimg {
+	width: 100%;
+}
+
+.banner {
+	overflow: hidden;
+	text-align: center;
+	background-color: #696969;
+	padding: 7.5px 0px 7.5px 0px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	
 }
 
 @media screen and (max-width: 980px) {
@@ -153,9 +169,11 @@ footer {
 		top: 135px;
 		left: 70%;
 	}
-	.pimg {
-		display: block;
+
+	.pdiv{
 		width: 90%;
+		display: block;
+		margin: auto;
 	}
 
 	.navigate {
@@ -183,10 +201,11 @@ footer {
 		top: 135px;
 		left: 3%;
 	}
-	.pimg {
+	
+	.pdiv{
+		width: 44%;
 		display: inline-block;
-		width: 45%;
-		margin: 2%;
+		margin: 2.5%;
 	}
 
 	.navigate {
@@ -214,9 +233,10 @@ footer {
 		top: 30px;
 		left: 3%;
 	}
-	.pimg {
+	.pdiv {
 		display: block;
 		width: 90%;
+		margin: auto;
 	}
 
 	.navigate {
