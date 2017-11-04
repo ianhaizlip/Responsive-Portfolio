@@ -49,16 +49,21 @@ p {
 .profile {
 	width: 200px;
 	height: 200px;
-	display: inline-block;
-	margin: 0px 15px 15px 0px;
+	display: block;
+	float: left;
+	margin-right: 15px;
+	/*margin: 0px 15px 15px 0px;*/
 }
 
 .wrap {
-	word-wrap: normal;
-	margin-right: 15px;
-	display: inline-block;
-	position: absolute;
-	top: 87px;
+	/*word-wrap: normal;*/
+	margin: 0 15px 15px 15px;
+	/*display: inline-block;*/
+	/*position: absolute;*/
+	/*top: 87px;*/
+	/*float:left;*/
+	/*width:15px;*/
+
 }
 
 .wrap2 {
@@ -110,6 +115,7 @@ section {
 	padding: 15px;
 	border: 5px solid #785807;
 	display: inline-block;
+	overflow:auto;
 }
 
 aside {
